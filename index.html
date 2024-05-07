@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versículo Diário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png" href="./img/icon.png">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="header">
+            <h1>Versículo Diário</h1>
+        </div>
+        <div id="versiculo">
+            <p id="textoVersiculo"></p>
+            <p id="referenciaVersiculo"></p>
+        </div>
+        <div class="compartilhar" id="compartilharVersiculo" style="display: none;">
+            <button id="compartilhar" onclick="copiarVersiculo()">Copiar Versículo</button>
+        </div>
+        <button id="botaoAleatorio" onclick="buscarVersiculoAleatorio()">Buscar Versículo Aleatório</button>
+    </div>
+
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
+

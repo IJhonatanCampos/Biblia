@@ -1,0 +1,57 @@
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    height: 100vh; /* ALTURA */
+    width: 100vw; /* LARGURA */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #000000;
+    opacity: 0.8; /* TRANSPARÊNCIA */
+    width: 95%;  /* LARGURA */
+    max-width: 450px; /* LARGURA MÁXIMA */
+    border-radius: 25px; /* ARREDONDAR BORDA */
+    padding: 20px;
+    color: #fff;
+}
+
+.header {
+    text-align: center;
+}
+
+#versiculo {
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.compartilhar{
+
+    display: block;
+    width: 100%;
+    padding: 0px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 0 5px 0;
+}
